@@ -16,6 +16,7 @@ test.describe('Postive Login Flow', () => {
 
     test('User should be able to navigate to Products page', async({page}) =>{
         await productPage.navigateToProductsPage();
+        expect(page).toHaveURL(/products/);
     });
 
 
