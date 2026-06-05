@@ -4,7 +4,7 @@ A scalable end to end UI automation framework built using Playwright, Typescript
 
 ---
 
-# Tech Stack
+## Tech Stack
 - Playwright
 - Typescript
 - Page Object Model(POM)
@@ -50,6 +50,7 @@ project-root
 |--playwright.config.ts
 |--package.json
 |--README.md
+```
 
 ---
 
