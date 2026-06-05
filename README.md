@@ -54,7 +54,7 @@ project-root
 
 ---
 
-# Framework Features
+## Framework Features
 
 ### Page Object Model
 All page-specific locators and mehtods are maintained separtely to improve maintainbility and resuability.
@@ -62,12 +62,12 @@ All page-specific locators and mehtods are maintained separtely to improve maint
 ### Test Data Managment
 Test data is separated from test-scripts.
 
-## Custom Fixturs
+### Custom Fixturs
 Resusable setup and login workflows.
 
-## Allure Reporting
+### Allure Reporting
 
-Rich execution repprts with:
+Rich execution reports with:
  - Test Steps
  - Severity
  - Features
@@ -75,14 +75,14 @@ Rich execution repprts with:
  - Screenshots
  - Failure Details
 
-# Github Actions
+### Github Actions
 Automated execution on code changes
 
-# Screnshots and Videos
+### Screnshots and Videos
 Captured automatically on failures
 
 
-# Installation
+## Installation
 
 Clone the repo:
 ```bash
@@ -101,7 +101,7 @@ npx playwright install
 
 ---
 
-# Running Tests
+## Running Tests
 
 Run all tests:
 
@@ -124,7 +124,7 @@ Run tests in UI mode:
 npx playwright test --ui
 ```
 
-# Playwright HTML Report
+## Playwright HTML Report
 Generated automaticaly after execution
 
 Open report:
@@ -132,7 +132,7 @@ Open report:
 npx playwright show-report
 ```
 
-# Allure Reports
+## Allure Reports
 
 Generate report:
 ```bash
