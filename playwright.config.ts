@@ -9,12 +9,15 @@ export default defineConfig({
 
     workers: 2,
 
-    reporter: 'html',
+     reporter: [
+    ['html'], 
+    ['allure-playwright',{ resultsDir: 'allure-results' }]
+  ],
 
     use: {
         baseURL: 'https://automationpracticehub.com/',
 
-        headless: true,
+        headless: true, 
 
         screenshot: 'only-on-failure',
 
