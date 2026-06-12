@@ -11,7 +11,6 @@ A scalable end to end UI automation framework built using Playwright, Typescript
 - Fixtures
 - Allure Reporting
 - Github Actions
-- Faker
 - Node.js
 
 ---
