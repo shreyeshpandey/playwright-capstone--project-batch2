@@ -13,7 +13,9 @@ export class ProductPage {
     async navigateToProductsPage(){
         await this.ProductPageNav.click();
     }
-
+    async verifyProductsPage(){
+        await this.page.waitForURL('');
+    }
 
 
 }
